@@ -4293,7 +4293,7 @@ fn create_webview<T: UserEvent>(
   ))]
   {
     if let Some(path) = &webview_attributes.extensions_path {
-      webview_builder = webview_builder.with_extension_path(path);
+      webview_builder = webview_builder.with_extensions_path(path);
     }
   }
 
